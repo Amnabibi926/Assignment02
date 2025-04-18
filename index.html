@@ -73,32 +73,26 @@ Assignment02
 <!DOCTYPE html>
 <html>
 <head>
-  <title> My portfolio </title>
-  <style>
-    .video {
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-    }
-
-    iframe {
-      width: 560px;
-      height: 315px;
-      border: none;
-    }
-  </style>
+  <title>My Portfolio</title>
 </head>
 <body>
 
-  <h2>Watch My Portfolio </h2>
+  <!-- Navigation or top section -->
+  <h2>My Portfolio</h2>
+  <p><a href="#spot">Go to My Project Spot</a></p>
 
-  <div class="video">
-    <iframe 
-      src="https://www.youtube.com/embed/sp4Xg1ADqvY" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-  </div>
+  <hr>
+
+  <!-- Some other content -->
+  <p>This is an intro to my portfolio. Scroll down to see the featured project.</p>
+
+  <!-- Project Spot section with anchor -->
+  <h3><a name="spot">Spot</a></h3>
+  <iframe width="360" height="215" 
+    src="https://www.youtube.com/embed/sp4Xg1ADqvY" 
+    frameborder="0" allowfullscreen>
+  </iframe>
+  <p>This is my featured project video on YouTube.</p>
 
 </body>
 </html>
